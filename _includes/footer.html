@@ -14,13 +14,10 @@
     {% endfor %}
   </ul>
   <ul class="copyright">
-    <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
-    {% if site.first_published %}
-      {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
-      {% if diff contains '-' %}{{ site.first_published }},{% endif %}
-    {% endif %}
-    {{ thisyear }}
-    {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
+    <li>&copy; 2018
+    Emily Ong Hui Qi, Han Leyan, Kwek Wan Ting, Natasha Zulkifli, Chen Wuyang, Yap Tze Hiang Ryan</li>
+    <br/>
+    <li>A Financial Literacy Project</li>
     <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
     <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
   </ul>
