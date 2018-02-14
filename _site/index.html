@@ -12,12 +12,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Doguber</title>
   <meta name="description" content="Doguber">
-  <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="stylesheet" href="/css/main.css" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
-  <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-  <link rel="alternate" type="application/rss+xml" title="Doguber" href="http://localhost:4000/feed.xml">
+  <!--[if lte IE 8]><script src="/doguber/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="canonical" href="http://localhost:4000/doguber/">
+  <link rel="stylesheet" href="/doguber/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="/doguber/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/doguber/css/ie9.css" /><![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="Doguber" href="http://localhost:4000/doguber/feed.xml">
   <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
@@ -37,183 +37,167 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
+
   <body class="landing">
 
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
-      				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Doguber</h2>
-                            <h1>Happy Dogs, Happy People</h1>
-							<p><span class="typewrite" data-period="2000" data-type='[ "Too busy for your dog?", "Worried about your dog&apos;s health?", "Want to look for a dog-walker?"  ]'>
-                            <span class="wrap"></span>
-                            </span>
-                            </p>
-							<ul class="actions">
-								<li><button class="button special">Activate</button></li>
-							</ul>
-						</div>
-					</section>
+      <!-- Banner -->
+<section id="banner">
+<div class="inner">
+  <h2>Doguber</h2>
+  <h1>Happy Dogs, Happy People</h1>
+  <p><span class="typewrite" data-period="2000" data-type='[ "Too busy for your dog?", "Worried about your dog&apos;s health?", "Want to look for a dog-walker?"  ]'>
+  <span class="wrap"></span>
+  </span>
+</p>
+  <ul class="actions">
+	  <li><button class="button special" onclick="activateFunction()">Activate</button></li>
+  </ul>
+  <div id="snackbar">Thank you for using Doguber!</div>
+</div>
+<a href="#one" class="more scrolly">Learn More</a>
+</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>/Doh-gu-ber/</h2>
-								<p>Dog walking is the act of a person walking with a dog, typically from the dog's residence and then returning. This constitutes part of the daily exercise regime needed to keep a dog healthy.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-home major style1"><span class="label"></span></span></li>
-								<li><span class="icon fa-child major style2"><span class="label"></span></span></li>
-								<li><span class="icon fa-heart-o major style3"><span class="label"></span></span></li>
-							</ul>
-						</div>
-					</section>
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+<div class="inner">
+  <header class="major">
+	  <h2>/Doh-gu-ber/</h2>
+	  <p>Dog walking is the act of a person walking with a dog, typically from the dog's residence and then returning. This constitutes part of the daily exercise regime needed to keep a dog healthy.</p>
+  </header>
+  <ul class="icons major">
+	  <li><span class="icon fa-home major style1"><span class="label"></span></span></li>
+	  <li><span class="icon fa-child major style2"><span class="label"></span></span></li>
+	  <li><span class="icon fa-heart-o major style3"><span class="label"></span></span></li>
+  </ul>
+</div>
+</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"></div><div class="content">
-								<h2>What is Doguber?</h2>
-								<p>
-                                Many people find it increasingly difficult to take time out of their day to walk their dogs.
-                                Personal dog walkers are expensive while hired dog walkers might steal the dog.
-                                Furthermore, dog owners are unable to track the dog’s whereabouts due to the lack of trust with the dog walker.
-                                </p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Why Doguber?</h2>
-								<p>
-                                Many people in Singapore are becoming dog owners and
-                                pet-care market in Singapore is hence growing rapidly.
-                                However, many of the dog owners do not have the time to
-                                walk their dogs due to Singapore’s fast-paced lifestyle.
-                                Our product helps to solve this common problem many dog
-                                owners or aspiring dog owners face - so, start now!
-                                </p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"></div><div class="content">
-								<h2>How Doguber?</h2>
-								<p>
-                                <ol>
-                                <li>Dog owners send out a request into the website for people to walk their dogs</li>
-                                <li>The requests would then be collated onto our website</li>
-                                <li>The dog walkers are able to review the requests and then accept the requests</li>
-                                <li>The dog walkers will go to the house to collect the dog to walk it at the collection timing indicated by the dog owner.</li>
-                                </ol>
-                                </p>
-							</div>
-						</section>
-					</section>
+<!-- Two -->
+<section id="two" class="wrapper alt style2">
+<section class="spotlight">
+  <div class="image"></div><div class="content">
+	  <h2>What is Doguber?</h2>
+	  <p>
+	  Many people find it increasingly difficult to take time out of their day to walk their dogs.
+	  Personal dog walkers are expensive while hired dog walkers might steal the dog.
+	  Furthermore, dog owners are unable to track the dog’s whereabouts due to the lack of trust with the dog walker.
+	  </p>
+  </div>
+</section>
+<section class="spotlight">
+  <div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+	  <h2>Why Doguber?</h2>
+	  <p>
+	  Many people in Singapore are becoming dog owners and
+	  pet-care market in Singapore is hence growing rapidly.
+	  However, many of the dog owners do not have the time to
+	  walk their dogs due to Singapore’s fast-paced lifestyle.
+	  Our product helps to solve this common problem many dog
+	  owners or aspiring dog owners face - so, start now!
+	  </p>
+  </div>
+</section>
+<section class="spotlight">
+  <div class="image"></div><div class="content">
+	  <h2>How Doguber?</h2>
+	  <p>
+	  <ol>
+	  <li>Dog owners send out a request into the website for people to walk their dogs</li>
+	  <li>The requests would then be collated onto our website</li>
+	  <li>The dog walkers are able to review the requests and then accept the requests</li>
+	  <li>The dog walkers will go to the house to collect the dog to walk it at the collection timing indicated by the dog owner.</li>
+	  </ol>
+	  </p>
+  </div>
+</section>
+</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Doguber; Happy dogs, happy people</h2>
-								<p>"One of the best services I have ever used for my dog" ~ Natasha</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-map-marker">
-									<h3>Real-time Global Positioning System (GPS) Tracking</h3>
-                                    <h1><em>So you never lose your dog!</em></h1>
-									<p>
-                                    We are the <em>first</em> in Singapore to use the GPS technology
-                                    to ensure the safety of the dogs and give the owners a peace of mind.
-                                    To complement the dog walking service, we sell a special dog collar with a
-                                    built in Global Positioning System that synchronizes with our app, allowing
-                                    owners to see where their dogs are.
-                                    The GPS cannot be switched off by anyone but the owner, who would receive a special code upon purchase.
-                                    </p>
-								</li>
-								<li class="icon fa-street-view">
-									<h3>Professional and all-rounded Dogubers</h3>
-                                    <h1><em>To take good care of your dog!</em></h1>
-									<p>
-                                    Dog walkers with Doguber are required to attend a 2-hour training class.
-                                    </p>
-								</li>
-								<li class="icon fa-dollar">
-									<h3>Affordable rates through smart payment</h3>
-                                    <h1><em>For everyone!</em></h1>
-									<p>
-                                    When dog owners send out a request, they would have to transfer the indicated amount of money into the app using credit card/bank account.
-                                    If a dog walker accepts the request, this money would be stored in the app temporarily
-                                    </p>
-								</li>
-                                <li class="icon fa-comments">
-									<h3>Communication</h3>
-                                    <h1><em>To and fro</em></h1>
-									<p>
-                                    A private and encrypted chatroom in the app allows owners to communicate with the paired walker.
-                                    Moreover, a feedback system is implemented in which dog owners/dog walkers can give each other feedback after a job request has been successfully completed
-                                    </p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Loving your dog</h3>
-                                    <h1><em>Starts with Doguber!</em></h1>
-									<p class="icon fa-paw">
-                                        woof
-                                    </p>
-                                    <p>
-                    					<em>Easily Communicate with the walkers</em>
-                    					<br/>
-                    					<em>Quickly find a dog walker who lives in the vicinity at a relatively low cost</em>
-                    				</p>
-                                    <p>
-                                    Psst. Check out our online shop which sells carefully-designed pet care products.
-                                    </p>
-                                </li>
-							</ul>
-						</div>
-					</section>
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+<div class="inner">
+  <header class="major">
+	  <h2>Doguber; Happy dogs, happy people</h2>
+	  <p>"One of the best services I have ever used for my dog" ~ Natasha</p>
+  </header>
+  <ul class="features">
+	  <li class="icon fa-map-marker">
+		  <h3>Real-time Global Positioning System (GPS) Tracking</h3>
+		  <h1><em>So you never lose your dog!</em></h1>
+		  <p>
+		  We are the <em>first</em> in Singapore to use the GPS technology
+		  to ensure the safety of the dogs and give the owners a peace of mind.
+		  To complement the dog walking service, we sell a special dog collar with a
+		  built in Global Positioning System that synchronizes with our app, allowing
+		  owners to see where their dogs are.
+		  The GPS cannot be switched off by anyone but the owner, who would receive a special code upon purchase.
+		  </p>
+	  </li>
+	  <li class="icon fa-street-view">
+		  <h3>Professional and all-rounded Dogubers</h3>
+		  <h1><em>To take good care of your dog!</em></h1>
+		  <p>
+		  Dog walkers with Doguber are required to attend a 2-hour training class.
+		  </p>
+	  </li>
+	  <li class="icon fa-dollar">
+		  <h3>Affordable rates through smart payment</h3>
+		  <h1><em>For everyone!</em></h1>
+		  <p>
+		  When dog owners send out a request, they would have to transfer the indicated amount of money into the app using credit card/bank account.
+		  If a dog walker accepts the request, this money would be stored in the app temporarily
+		  </p>
+	  </li>
+	  <li class="icon fa-comments">
+		  <h3>Communication</h3>
+		  <h1><em>To and fro</em></h1>
+		  <p>
+		  A private and encrypted chatroom in the app allows owners to communicate with the paired walker.
+		  Moreover, a feedback system is implemented in which dog owners/dog walkers can give each other feedback after a job request has been successfully completed
+		  </p>
+	  </li>
+	  <li class="icon fa-heart">
+		  <h3>Loving your dog</h3>
+		  <h1><em>Starts with Doguber!</em></h1>
+		  <p class="icon fa-paw">
+			  woof
+		  </p>
+		  <p>
+			  <em>Easily Communicate with the walkers</em>
+			  <br/><br/>
+			  <em>Quickly find a dog walker who lives in the vicinity at a relatively low cost</em>
+		  </p>
+		  <p>
+		  Psst. Check out our online shop which sells carefully-designed pet care products.
+		  </p>
+	  </li>
+  </ul>
+</div>
+</section>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Excited? Try it now!</h2>
-								<p>It's never to late for happy dogs, happy people.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><button class="button fit special">Activate</button></li>
-							</ul>
-						</div>
-					</section>
+<!-- CTA -->
+<section id="cta" class="wrapper style4">
+<div class="inner">
+  <header>
+	  <h2>Excited? Try it now!</h2>
+	  <p>It's never to late for happy dogs, happy people.</p>
+  </header>
+  <ul class="actions vertical">
+	  <li><button class="button fit special" onclick="activateFunction()">Activate</button></li>
+  </ul>
+</div>
+</section>
+
 
       <!-- Footer -->
 <footer id="footer">
   <ul class="icons">
 
-
-
-    <li><a target="_blank" class="icon fa-twitter"
-           ><span class="label">twitter</span></a></li>
-
-    <li><a target="_blank" class="icon fa-github"
-           ><span class="label">github</span></a></li>
-
-    <li><a target="_blank" class="icon fa-linkedin-square"
-           ><span class="label">linkedin-square</span></a></li>
-
-    <li><a target="_blank" class="icon fa-facebook-official"
-           ><span class="label">facebook-official</span></a></li>
-
-    <li><a target="_blank" class="icon fa-google-plus-square"
-           ><span class="label">google-plus-square</span></a></li>
-
-
-
   </ul>
   <ul class="copyright">
-    <li>&copy;
-    2018
+    <li>&copy; 2018
     Emily Ong Hui Qi, Han Leyan, Kwek Wan Ting, Natasha Zulkifli, Chen Wuyang, Yap Tze Hiang Ryan</li>
     <br/>
     <li>A Financial Literacy Project</li>
@@ -222,15 +206,60 @@
   </ul>
 </footer>
 
+<style>
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+</style>
 
       <!-- Scripts -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.scrollex.min.js"></script>
-<script src="/js/jquery.scrolly.min.js"></script>
-<script src="/js/skel.min.js"></script>
-<script src="/js/util.js"></script>
-<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-<script src="/js/main.js"></script>
+<script src="/doguber/js/jquery.min.js"></script>
+<script src="/doguber/js/jquery.scrollex.min.js"></script>
+<script src="/doguber/js/jquery.scrolly.min.js"></script>
+<script src="/doguber/js/skel.min.js"></script>
+<script src="/doguber/js/util.js"></script>
+<!--[if lte IE 8]><script src="/doguber/js/ie/respond.min.js"></script><![endif]-->
+<script src="/doguber/js/main.js"></script>
 
 <script>
 
@@ -284,15 +313,25 @@ var TxtType = function(el, toRotate, period) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-
+        // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
 
-</script>
+function activateFunction() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
 
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+</script>
 
     </div>
 
