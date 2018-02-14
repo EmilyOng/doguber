@@ -9,6 +9,8 @@ first_published: 2018
 email: emilyohq11@gmail.com
 baseurl: "/doguber" # the subpath of your site, e.g. /blog
 url: "https://emilyong.github.io/doguber/" # the base hostname & protocol for your site
+include:
+  - static
 # social:
 #   twitter: https://twitter.com/<username>
 #   github: https://github.com/<username>
